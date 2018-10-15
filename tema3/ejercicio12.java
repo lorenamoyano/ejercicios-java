@@ -12,7 +12,7 @@ public class ejercicio12 {
     System.out.print("¿Qué nota quieres en programacion?: ");
     media = Double.parseDouble(System.console().readLine());
     
-    double notaFinal = notaExamen1 * 0.40; //
+    double notaFinal = notaExamen1 * 0.40;
     
     notaExamen2 = media - notaExamen1;
     total = notaExamen2 *0.6;
